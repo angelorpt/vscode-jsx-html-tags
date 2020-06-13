@@ -1,3 +1,637 @@
 {
+
+    /*
+        Content sectioning
+    */
+
+    "address": {
+        "prefix": "address",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<address>${0}</address>"
+        ],
+        "description": "The <address> element"
+    },
+
+    "article": {
+        "prefix": "article",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<article>${0}</article>"
+        ],
+        "description": "The <article> element"
+    },
+
+    "aside": {
+        "prefix": "aside",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<aside>${0}</aside>"
+        ],
+        "description": "The <aside> element"
+    },
+
+    "footer": {
+        "prefix": "footer",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<footer>${0}</footer>"
+        ],
+        "description": "The <footer> element"
+    },
+
+    "header": {
+        "prefix": "header",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<header>${0}</header>"
+        ],
+        "description": "The <header> element"
+    },
+
+    /*
+        h1 - h6
+    */
+
+    "h1": {
+        "prefix": "h1",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h1>${0}</h1>"
+        ],
+        "description": "The <h1> element"
+    },
+
+    "h2": {
+        "prefix": "h2",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h2>${0}</h2>"
+        ],
+        "description": "The <h2> element"
+    },
+
+    "h3": {
+        "prefix": "h3",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h3>${0}</h3>"
+        ],
+        "description": "The <h3> element"
+    },
+
+    "h4": {
+        "prefix": "h4",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h4>${0}</h4>"
+        ],
+        "description": "The <h4> element"
+    },
+
+    "h5": {
+        "prefix": "h5",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h5>${0}</h5>"
+        ],
+        "description": "The <h5> element"
+    },
+
+    "h6": {
+        "prefix": "h6",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<h6>${0}</h6>"
+        ],
+        "description": "The <h6> element"
+    },
     
+    /*
+    
+    */
+
+    "main": {
+        "prefix": "main",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<main>${0}</main>"
+        ],
+        "description": "The <main> element"
+    },
+
+    "nav": {
+        "prefix": "nav",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<nav>${0}</nav>"
+        ],
+        "description": "The <nav> element"
+    },
+
+    "section": {
+        "prefix": "section",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<section>${0}</section>"
+        ],
+        "description": "The <section> element"
+    },
+    
+    /*
+        Text content
+    */
+
+    "blockquote": {
+        "prefix": "blockquote",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<blockquote>${0}</blockquote>"
+        ],
+        "description": "The <blockquote> element"
+    },
+
+    "dd": {
+        "prefix": "dd",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<dd>${0}</dd>"
+        ],
+        "description": "The <dd> element"
+    },
+
+    "div": {
+        "prefix": "div",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<div>${0}</div>"
+        ],
+        "description": "The <div> element"
+    },
+
+    "dl": {
+        "prefix": "dl",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<dl>${0}</dl>"
+        ],
+        "description": "The <dl> element"
+    },
+
+    "dt": {
+        "prefix": "dt",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<dt>${0}</dt>"
+        ],
+        "description": "The <dt> element"
+    },
+
+    "figcaption": {
+        "prefix": "figcaption",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<figcaption>${0}</figcaption>"
+        ],
+        "description": "The <figcaption> element"
+    },
+
+    "figure": {
+        "prefix": "figure",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<figure>${0}</figure>"
+        ],
+        "description": "The <figure> element"
+    },
+
+    "hr": {
+        "prefix": "hr",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<hr />"
+        ],
+        "description": "The <hr> element"
+    },
+
+    "li": {
+        "prefix": "li",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<li>${0}</li>"
+        ],
+        "description": "The <li> element"
+    },    
+
+    "ol": {
+        "prefix": "ol",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<ol>${0}</ol>"
+        ],
+        "description": "The <ol> element"
+    },   
+
+    "p": {
+        "prefix": "p",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<p>${0}</p>"
+        ],
+        "description": "The <p> element"
+    },
+
+    "pre": {
+        "prefix": "pre",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<pre>${0}</pre>"
+        ],
+        "description": "The <pre> element"
+    },    
+
+    "ul": {
+        "prefix": "ul",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<ul>${0}</ul>"
+        ],
+        "description": "The <ul> element"
+    },    
+
+    /*
+        Inline text semantics
+    */
+
+    "a": {
+        "prefix": "a",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<a href=\"${1}\">${0}</a>"
+        ],
+        "description": "The <a> element"
+    }, 
+
+    "abbr": {
+        "prefix": "abbr",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<abbr>${0}</abbr>"
+        ],
+        "description": "The <abbr> element"
+    }, 
+
+    "br": {
+        "prefix": "br",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<br />"
+        ],
+        "description": "The <br> element"
+    },
+
+    "cite": {
+        "prefix": "cite",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<cite>${0}</cite>"
+        ],
+        "description": "The <cite> element"
+    },     
+
+    "code": {
+        "prefix": "code",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<code>${0}</code>"
+        ],
+        "description": "The <code> element"
+    },
+
+    "em": {
+        "prefix": "em",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<em>${0}</em>"
+        ],
+        "description": "The <em> element"
+    },
+
+    "mark": {
+        "prefix": "mark",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<mark>${0}</mark>"
+        ],
+        "description": "The <mark> element"
+    },
+
+    "small": {
+        "prefix": "small",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<small>${0}</small>"
+        ],
+        "description": "The <small> element"
+    },
+
+    "span": {
+        "prefix": "span",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<span>${0}</span>"
+        ],
+        "description": "The <span> element"
+    },
+
+    "strong": {
+        "prefix": "strong",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<strong>${0}</strong>"
+        ],
+        "description": "The <strong> element"
+    },
+
+    "time": {
+        "prefix": "time",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<time>${0}</time>"
+        ],
+        "description": "The <time> element"
+    },
+    
+    /*
+        Image and multimedia
+    */
+    
+    "audio": {
+        "prefix": "audio",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<audio src=\"${1}\">${0}</audio>"
+        ],
+        "description": "The <audio> element"
+    },
+
+    "img": {
+        "prefix": "img",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<img src=\"${0}\" />"
+        ],
+        "description": "The <img> element"
+    },
+
+    "track": {
+        "prefix": "track",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<track src=\"${0}\" />"
+        ],
+        "description": "The <track> element"
+    },
+
+    "video": {
+        "prefix": "video",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<video src=\"${1}\">${0}</video>"
+        ],
+        "description": "The <video> element"
+    },
+
+    /*
+        Demarcating edits
+    */
+
+    "del": {
+        "prefix": "del",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<del>${0}</del>"
+        ],
+        "description": "The <del> element"
+    },
+
+    "ins": {
+        "prefix": "ins",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<ins>${0}</ins>"
+        ],
+        "description": "The <ins> element"
+    },
+    
+    /*
+        Table content
+    */
+
+    "caption": {
+        "prefix": "caption",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<caption>${0}</caption>"
+        ],
+        "description": "The <caption> element"
+    },
+
+    "table": {
+        "prefix": "table",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<table>${0}</table>"
+        ],
+        "description": "The <table> element"
+    },
+
+    "tbody": {
+        "prefix": "tbody",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<tbody>${0}</tbody>"
+        ],
+        "description": "The <tbody> element"
+    },
+
+    "td": {
+        "prefix": "td",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<td>${0}</td>"
+        ],
+        "description": "The <td> element"
+    },
+
+    "tfoot": {
+        "prefix": "tfoot",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<tfoot>${0}</tfoot>"
+        ],
+        "description": "The <tfoot> element"
+    },
+
+    "th": {
+        "prefix": "th",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<th>${0}</th>"
+        ],
+        "description": "The <th> element"
+    },
+
+    "thead": {
+        "prefix": "thead",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<thead>${0}</thead>"
+        ],
+        "description": "The <thead> element"
+    },
+
+    "tr": {
+        "prefix": "tr",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<tr>${0}</tr>"
+        ],
+        "description": "The <tr> element"
+    },
+
+    /*
+        Forms
+    */
+
+    "button": {
+        "prefix": "button",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<button>${0}</button>"
+        ],
+        "description": "The <button> element"
+    },    
+
+    "datalist": {
+        "prefix": "datalist",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<datalist>${0}</datalist>"
+        ],
+        "description": "The <datalist> element"
+    },    
+
+    "fieldset": {
+        "prefix": "fieldset",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<fieldset>${0}</fieldset>"
+        ],
+        "description": "The <fieldset> element"
+    },    
+
+    "form": {
+        "prefix": "form",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<form>${0}</form>"
+        ],
+        "description": "The <form> element"
+    },
+
+    "input": {
+        "prefix": "input",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<input type=\"${0}\" />"
+        ],
+        "description": "The <input> element"
+    },
+
+    "label": {
+        "prefix": "label",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<label>${0}</label>"
+        ],
+        "description": "The <label> element"
+    },    
+
+    "legend": {
+        "prefix": "legend",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<legend>${0}</legend>"
+        ],
+        "description": "The <legend> element"
+    },
+
+    "optgroup": {
+        "prefix": "optgroup",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<optgroup>${0}</optgroup>"
+        ],
+        "description": "The <optgroup> element"
+    },
+
+    "option": {
+        "prefix": "option",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<option>${0}</option>"
+        ],
+        "description": "The <option> element"
+    },
+
+    "progress": {
+        "prefix": "progress",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<progress>${0}</progress>"
+        ],
+        "description": "The <progress> element"
+    },
+
+    "select": {
+        "prefix": "select",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<select>${0}</select>"
+        ],
+        "description": "The <select> element"
+    },
+
+    "textarea": {
+        "prefix": "textarea",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<textarea>${0}</textarea>"
+        ],
+        "description": "The <textarea> element"
+    },
+
+    /*
+        Interactive elements
+    */
+
+    "details": {
+        "prefix": "details",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<details>${0}</details>"
+        ],
+        "description": "The <details> element"
+    },   
+
+    "summary": {
+        "prefix": "summary",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "<summary>${0}</summary>"
+        ],
+        "description": "The <summary> element"
+    },    
+
 }
