@@ -1,5 +1,4 @@
 {
-
     /*
         Content sectioning
     */
@@ -10,7 +9,6 @@
         "body": [
             "<address>${0}</address>"
         ],
-        "description": "The <address> element"
     },
 
     "article": {
@@ -19,7 +17,6 @@
         "body": [
             "<article>${0}</article>"
         ],
-        "description": "The <article> element"
     },
 
     "aside": {
@@ -28,7 +25,6 @@
         "body": [
             "<aside>${0}</aside>"
         ],
-        "description": "The <aside> element"
     },
 
     "footer": {
@@ -37,7 +33,6 @@
         "body": [
             "<footer>${0}</footer>"
         ],
-        "description": "The <footer> element"
     },
 
     "header": {
@@ -46,7 +41,6 @@
         "body": [
             "<header>${0}</header>"
         ],
-        "description": "The <header> element"
     },
 
     /*
@@ -59,7 +53,6 @@
         "body": [
             "<h1>${0}</h1>"
         ],
-        "description": "The <h1> element"
     },
 
     "h2": {
@@ -68,7 +61,6 @@
         "body": [
             "<h2>${0}</h2>"
         ],
-        "description": "The <h2> element"
     },
 
     "h3": {
@@ -77,7 +69,6 @@
         "body": [
             "<h3>${0}</h3>"
         ],
-        "description": "The <h3> element"
     },
 
     "h4": {
@@ -86,7 +77,6 @@
         "body": [
             "<h4>${0}</h4>"
         ],
-        "description": "The <h4> element"
     },
 
     "h5": {
@@ -95,7 +85,6 @@
         "body": [
             "<h5>${0}</h5>"
         ],
-        "description": "The <h5> element"
     },
 
     "h6": {
@@ -104,7 +93,6 @@
         "body": [
             "<h6>${0}</h6>"
         ],
-        "description": "The <h6> element"
     },
     
     /*
@@ -117,7 +105,6 @@
         "body": [
             "<main>${0}</main>"
         ],
-        "description": "The <main> element"
     },
 
     "nav": {
@@ -126,7 +113,6 @@
         "body": [
             "<nav>${0}</nav>"
         ],
-        "description": "The <nav> element"
     },
 
     "section": {
@@ -135,7 +121,6 @@
         "body": [
             "<section>${0}</section>"
         ],
-        "description": "The <section> element"
     },
     
     /*
@@ -148,7 +133,6 @@
         "body": [
             "<blockquote>${0}</blockquote>"
         ],
-        "description": "The <blockquote> element"
     },
 
     "dd": {
@@ -157,7 +141,6 @@
         "body": [
             "<dd>${0}</dd>"
         ],
-        "description": "The <dd> element"
     },
 
     "div": {
@@ -166,7 +149,6 @@
         "body": [
             "<div>${0}</div>"
         ],
-        "description": "The <div> element"
     },
 
     "dl": {
@@ -175,7 +157,6 @@
         "body": [
             "<dl>${0}</dl>"
         ],
-        "description": "The <dl> element"
     },
 
     "dt": {
@@ -184,7 +165,6 @@
         "body": [
             "<dt>${0}</dt>"
         ],
-        "description": "The <dt> element"
     },
 
     "figcaption": {
@@ -193,7 +173,6 @@
         "body": [
             "<figcaption>${0}</figcaption>"
         ],
-        "description": "The <figcaption> element"
     },
 
     "figure": {
@@ -202,7 +181,6 @@
         "body": [
             "<figure>${0}</figure>"
         ],
-        "description": "The <figure> element"
     },
 
     "hr": {
@@ -211,7 +189,6 @@
         "body": [
             "<hr/>"
         ],
-        "description": "The <hr> element"
     },
 
     "li": {
@@ -220,7 +197,6 @@
         "body": [
             "<li>${0}</li>"
         ],
-        "description": "The <li> element"
     },    
 
     "ol": {
@@ -229,7 +205,6 @@
         "body": [
             "<ol>${0}</ol>"
         ],
-        "description": "The <ol> element"
     },   
 
     "p": {
@@ -238,7 +213,6 @@
         "body": [
             "<p>${0}</p>"
         ],
-        "description": "The <p> element"
     },
 
     "pre": {
@@ -247,7 +221,6 @@
         "body": [
             "<pre>${0}</pre>"
         ],
-        "description": "The <pre> element"
     },    
 
     "ul": {
@@ -256,7 +229,6 @@
         "body": [
             "<ul>${0}</ul>"
         ],
-        "description": "The <ul> element"
     },    
 
     /*
@@ -269,7 +241,6 @@
         "body": [
             "<a href=\"${1}\">${0}</a>"
         ],
-        "description": "The <a> element"
     }, 
 
     "abbr": {
@@ -278,7 +249,6 @@
         "body": [
             "<abbr title=\"${1}\">${0}</abbr>"
         ],
-        "description": "The <abbr> element"
     }, 
 
     "br": {
@@ -287,7 +257,6 @@
         "body": [
             "<br/>"
         ],
-        "description": "The <br> element"
     },
 
     "cite": {
@@ -296,7 +265,6 @@
         "body": [
             "<cite>${0}</cite>"
         ],
-        "description": "The <cite> element"
     },     
 
     "code": {
@@ -305,7 +273,6 @@
         "body": [
             "<code>${0}</code>"
         ],
-        "description": "The <code> element"
     },
 
     "em": {
@@ -314,7 +281,6 @@
         "body": [
             "<em>${0}</em>"
         ],
-        "description": "The <em> element"
     },
 
     "mark": {
@@ -323,7 +289,6 @@
         "body": [
             "<mark>${0}</mark>"
         ],
-        "description": "The <mark> element"
     },
 
     "small": {
@@ -332,7 +297,6 @@
         "body": [
             "<small>${0}</small>"
         ],
-        "description": "The <small> element"
     },
 
     "span": {
@@ -341,7 +305,6 @@
         "body": [
             "<span>${0}</span>"
         ],
-        "description": "The <span> element"
     },
 
     "strong": {
@@ -358,7 +321,6 @@
         "body": [
             "<time>${0}</time>"
         ],
-        "description": "The <time> element"
     },
     
     /*
@@ -371,7 +333,6 @@
         "body": [
             "<audio src=\"${1}\">${0}</audio>"
         ],
-        "description": "The <audio> element"
     },
 
     "img": {
@@ -380,7 +341,6 @@
         "body": [
             "<img src=\"${1}\" alt=\"${2}\" />${0}"
         ],
-        "description": "The <img> element"
     },
 
     "track": {
@@ -389,7 +349,6 @@
         "body": [
             "<track src=\"${0}\" />"
         ],
-        "description": "The <track> element"
     },
 
     "video": {
@@ -398,7 +357,6 @@
         "body": [
             "<video src=\"${1}\">${0}</video>"
         ],
-        "description": "The <video> element"
     },
 
     /*
@@ -411,7 +369,6 @@
         "body": [
             "<del>${0}</del>"
         ],
-        "description": "The <del> element"
     },
 
     "ins": {
@@ -420,7 +377,6 @@
         "body": [
             "<ins>${0}</ins>"
         ],
-        "description": "The <ins> element"
     },
     
     /*
@@ -433,7 +389,6 @@
         "body": [
             "<caption>${0}</caption>"
         ],
-        "description": "The <caption> element"
     },
 
     "table": {
@@ -442,7 +397,6 @@
         "body": [
             "<table>${0}</table>"
         ],
-        "description": "The <table> element"
     },
 
     "tbody": {
@@ -451,7 +405,6 @@
         "body": [
             "<tbody>${0}</tbody>"
         ],
-        "description": "The <tbody> element"
     },
 
     "td": {
@@ -460,7 +413,6 @@
         "body": [
             "<td>${0}</td>"
         ],
-        "description": "The <td> element"
     },
 
     "tfoot": {
@@ -469,7 +421,6 @@
         "body": [
             "<tfoot>${0}</tfoot>"
         ],
-        "description": "The <tfoot> element"
     },
 
     "th": {
@@ -478,7 +429,6 @@
         "body": [
             "<th>${0}</th>"
         ],
-        "description": "The <th> element"
     },
 
     "thead": {
@@ -487,7 +437,6 @@
         "body": [
             "<thead>${0}</thead>"
         ],
-        "description": "The <thead> element"
     },
 
     "tr": {
@@ -496,7 +445,6 @@
         "body": [
             "<tr${1: key=\"${2}\"}>${0}</tr>"
         ],
-        "description": "The <tr> element"
     },
 
     /*
@@ -509,7 +457,6 @@
         "body": [
             "<button>${0}</button>"
         ],
-        "description": "The <button> element"
     },    
 
     "datalist": {
@@ -518,7 +465,6 @@
         "body": [
             "<datalist>${0}</datalist>"
         ],
-        "description": "The <datalist> element"
     },    
 
     "fieldset": {
@@ -527,7 +473,6 @@
         "body": [
             "<fieldset>${0}</fieldset>"
         ],
-        "description": "The <fieldset> element"
     },    
 
     "form": {
@@ -536,7 +481,6 @@
         "body": [
             "<form>${0}</form>"
         ],
-        "description": "The <form> element"
     },
 
     "input": {
@@ -545,7 +489,6 @@
         "body": [
             "<input type=\"${1:text}\" />${0}"
         ],
-        "description": "The <input> element"
     },
 
     "label": {
@@ -554,7 +497,6 @@
         "body": [
             "<label>${0}</label>"
         ],
-        "description": "The <label> element"
     },    
 
     "legend": {
@@ -563,7 +505,6 @@
         "body": [
             "<legend>${0}</legend>"
         ],
-        "description": "The <legend> element"
     },
 
     "optgroup": {
@@ -572,7 +513,6 @@
         "body": [
             "<optgroup>${0}</optgroup>"
         ],
-        "description": "The <optgroup> element"
     },
 
     "option": {
@@ -581,7 +521,6 @@
         "body": [
             "<option value=\"${1}\" key=\"${2}\">${0}</option>"
         ],
-        "description": "The <option> element"
     },
 
     "progress": {
@@ -590,7 +529,6 @@
         "body": [
             "<progress>${0}</progress>"
         ],
-        "description": "The <progress> element"
     },
 
     "select": {
@@ -599,7 +537,6 @@
         "body": [
             "<select>${0}</select>"
         ],
-        "description": "The <select> element"
     },
 
     "textarea": {
@@ -608,7 +545,6 @@
         "body": [
             "<textarea cols=\"${1:30}\" rows=\"${2:10}\">${0}</textarea>"
         ],
-        "description": "The <textarea> element"
     },
 
     /*
@@ -621,7 +557,6 @@
         "body": [
             "<details>${0}</details>"
         ],
-        "description": "The <details> element"
     },   
 
     "summary": {
@@ -630,7 +565,18 @@
         "body": [
             "<summary>${0}</summary>"
         ],
-        "description": "The <summary> element"
+    },
+
+    /*
+        React
+    */
+
+    "className": {
+        "prefix": "className",
+        "scope": "javascript,javascriptreact,typescriptreact",
+        "body": [
+            "className=\"${0}\""
+        ],
     },    
 
 }

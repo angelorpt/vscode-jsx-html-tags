@@ -8,12 +8,12 @@
     "description": "Use HTML Tags into JSX",
     "version": "0.1.0",
     "engines": {
-        "vscode": "^1.46.0"
+        "vscode": "^1.40.0"
     },
     "icon": "img/logo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/angelorpt/vscode-extensions-helper.git"
+		"url": ""
 	},    
     "categories": [
         "Snippets"
