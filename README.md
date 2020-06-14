@@ -1,10 +1,12 @@
-# JSX \<html-tags\/\>
+# JSX HTML <tags\/\>
 
 ![JSX HTML Tags](./img/logo.png)
 
 <br>
 
-## HTML tags to JSX files
+## HTML tags to JSX files 
+
+_**Support .js | .jsx | .tsx files**_
 
 <br>
 
@@ -129,3 +131,20 @@ Command                | Result
 -----------------------|-------------------------------------------
 <kbd>details</kbd>     |  `<details></details>`
 <kbd>summary</kbd>     |  `<summary></summary>`
+
+<br><br>
+
+### Make a donation
+
+PayPal                 | PicPay
+---------------------- | -------------------
+[ ![Doação Paypal](./img/Paypal.png) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTR3YYMAXQGFC&source=url) | [ ![QRCode_PicPay](./img/Picpay.png) ](https://picpay.me/angelo.pinto)
+
+
+#### Picpay
+
+Não tem PicPay ainda - Cadastrando-se com o código de indicação ([6YHQJQ](http://www.picpay.com/convite?6YHQJQ)) você ganha R$ 10,00 de volta (cashback) após sua primeira compra. [Download](http://www.picpay.com/convite?6YHQJQ)
+
+Don't have PicPay yet - Registering with the referral code ([6YHQJQ](http://www.picpay.com/convite?6YHQJQ)) you get R$ 10.00 back (cashback) after your first purchase. [Download](http://www.picpay.com/convite?6YHQJQ)
+
+### Enjoy it!
