@@ -209,7 +209,7 @@
         "prefix": "hr",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<hr />"
+            "<hr/>"
         ],
         "description": "The <hr> element"
     },
@@ -276,7 +276,7 @@
         "prefix": "abbr",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<abbr>${0}</abbr>"
+            "<abbr title=\"${1}\">${0}</abbr>"
         ],
         "description": "The <abbr> element"
     }, 
@@ -285,7 +285,7 @@
         "prefix": "br",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<br />"
+            "<br/>"
         ],
         "description": "The <br> element"
     },
@@ -349,8 +349,7 @@
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
             "<strong>${0}</strong>"
-        ],
-        "description": "The <strong> element"
+        ]       
     },
 
     "time": {
@@ -379,7 +378,7 @@
         "prefix": "img",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<img src=\"${0}\" />"
+            "<img src=\"${1}\" alt=\"${2}\" />${0}"
         ],
         "description": "The <img> element"
     },
@@ -495,7 +494,7 @@
         "prefix": "tr",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<tr>${0}</tr>"
+            "<tr${1: key=\"${2}\"}>${0}</tr>"
         ],
         "description": "The <tr> element"
     },
@@ -544,7 +543,7 @@
         "prefix": "input",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<input type=\"${0}\" />"
+            "<input type=\"${1:text}\" />${0}"
         ],
         "description": "The <input> element"
     },
@@ -580,7 +579,7 @@
         "prefix": "option",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<option>${0}</option>"
+            "<option value=\"${1}\" key=\"${2}\">${0}</option>"
         ],
         "description": "The <option> element"
     },
@@ -607,7 +606,7 @@
         "prefix": "textarea",
         "scope": "javascript,javascriptreact,typescriptreact",
         "body": [
-            "<textarea>${0}</textarea>"
+            "<textarea cols=\"${1:30}\" rows=\"${2:10}\">${0}</textarea>"
         ],
         "description": "The <textarea> element"
     },
